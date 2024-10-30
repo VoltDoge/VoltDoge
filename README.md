@@ -1,5 +1,5 @@
 # VoltDoge
-![Logo](https://imgur.com/a/TKRjdpm)
+![Logo](https://github.com/VoltDoge/VoltDoge/blob/main/IMG_8784.jpeg?raw=true)
 # VoltDoge – Power Up Your Portfolio with Pure Energy! 🚀
 
 VoltDoge is a high-reward, community-powered crypto designed to deliver USDT reflections and excitement, all on a roadmap to a future Binance listing! Join us as we build a transparent, community-driven project packed with potential.
