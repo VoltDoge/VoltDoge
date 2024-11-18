@@ -1,6 +1,6 @@
 # VoltDoge
 ![Logo](https://github.com/VoltDoge/VoltDoge/blob/main/IMG_8784.jpeg?raw=true)
-# VoltDoge – Power Up Your Portfolio with Pure Energy! 🚀
+# VoltDoge – Empowering the Future of Crypto! ⚡🚀
 
 VoltDoge is a community-driven token built on transparency, growth, and innovation. Fueled by a 5% transaction tax, every trade contributes to buybacks, burns, marketing, and expansion.
 
