@@ -11,7 +11,7 @@ VoltDoge is a community-driven token built on transparency, growth, and innovati
 
 ## Tokenomics
 - **Total Supply:** 3.14 billion (π billion)
-- **Tax:** 5% (supporting growth, marketing, buyback & burns and CEX listings).
+- **Tax:** 3% (supporting growth, marketing, buyback & burns and CEX listings).
 
 ## How to Buy
 1. Get BNB in your wallet.
