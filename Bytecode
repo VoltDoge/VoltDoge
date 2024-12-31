@@ -1,0 +1,299 @@
+// Move bytecode v6
+module c0ebc8c54833fabb7f00cdc0359b0c012d28ec27eabd6b6497e47c1d564843d4
+.
+voltd
+ 
+{
+use 
+0000000000000000000000000000000000000000000000000000000000000001
+:
+:
+option
+;
+use 
+0000000000000000000000000000000000000000000000000000000000000002
+:
+:
+coin
+;
+use 
+0000000000000000000000000000000000000000000000000000000000000002
+:
+:
+transfer
+;
+use 
+0000000000000000000000000000000000000000000000000000000000000002
+:
+:
+tx_context
+;
+use 
+0000000000000000000000000000000000000000000000000000000000000002
+:
+:
+url
+;
+
+struct 
+VOLTD
+ has drop 
+{
+	
+dummy_field
+:
+ bool
+}
+
+init
+(
+Arg0
+:
+ 
+VOLTD
+,
+ 
+Arg1
+:
+ 
+&
+mut 
+TxContext
+)
+ 
+{
+L0
+:
+	loc2
+:
+ 
+CoinMetadata
+<
+VOLTD
+>
+L1:	loc3: vector
+<
+u8
+>
+L2:	loc4: TreasuryCap
+<
+VOLTD
+>
+B0:
+	0: LdConst[4](vector
+<
+u8
+>
+: "htt..)
+	1: StLoc[5](loc3: vector
+<
+u8
+>
+)
+	2: ImmBorrowLoc[5](loc3: vector
+<
+u8
+>
+)
+	3: VecLen(3)
+	4: LdU64(0)
+	5: Gt
+	6: BrFalse(12)
+B1:
+	7: LdConst[4](vector
+<
+u8
+>
+: "htt..)
+	8: Call url::new_unsafe_from_bytes(vector
+<
+u8
+>
+): Url
+	9: Call option::some
+<
+Url
+>
+(Url): Option
+<
+Url
+>
+	10: StLoc[2](loc0: Option
+<
+Url
+>
+)
+	11: Branch(14)
+B2:
+	12: Call option::none
+<
+Url
+>
+(): Option
+<
+Url
+>
+	13: StLoc[2](loc0: Option
+<
+Url
+>
+)
+B3:
+	14: MoveLoc[2](loc0: Option
+<
+Url
+>
+)
+	15: StLoc[3](loc1: Option
+<
+Url
+>
+)
+	16: MoveLoc[0](Arg0: VOLTD)
+	17: LdConst[0](u8: 9)
+	18: LdConst[1](vector
+<
+u8
+>
+: "VOL..)
+	19: LdConst[2](vector
+<
+u8
+>
+: "Vol..)
+	20: LdConst[3](vector
+<
+u8
+>
+: "Vol..)
+	21: MoveLoc[3](loc1: Option
+<
+Url
+>
+)
+	22: CopyLoc[1](Arg1: &mut TxContext)
+	23: Call coin::create_currency
+<
+VOLTD
+>
+(VOLTD, u8, vector
+<
+u8
+>
+, vector
+<
+u8
+>
+, vector
+<
+u8
+>
+, Option
+<
+Url
+>
+, &mut TxContext): TreasuryCap
+<
+VOLTD
+>
+ * CoinMetadata
+<
+VOLTD
+>
+	24: StLoc[4](loc2: CoinMetadata
+<
+VOLTD
+>
+)
+	25: StLoc[6](loc4: TreasuryCap
+<
+VOLTD
+>
+)
+	26: LdConst[5](u64: 3000..)
+	27: LdU64(0)
+	28: Gt
+	29: BrFalse(37)
+B4:
+	30: MutBorrowLoc[6](loc4: TreasuryCap
+<
+VOLTD
+>
+)
+	31: LdConst[5](u64: 3000..)
+	32: CopyLoc[1](Arg1: &mut TxContext)
+	33: FreezeRef
+	34: Call tx_context::sender(&TxContext): address
+	35: CopyLoc[1](Arg1: &mut TxContext)
+	36: Call coin::mint_and_transfer
+<
+VOLTD
+>
+(&mut TreasuryCap
+<
+VOLTD
+>
+, u64, address, &mut TxContext)
+B5:
+	37: MoveLoc[6](loc4: TreasuryCap
+<
+VOLTD
+>
+)
+	38: CopyLoc[1](Arg1: &mut TxContext)
+	39: FreezeRef
+	40: Call tx_context::sender(&TxContext): address
+	41: Call transfer::public_transfer<TreasuryCap
+<
+VOLTD
+>
+>(TreasuryCap
+<
+VOLTD
+>
+, address)
+	42: MoveLoc[4](loc2: CoinMetadata
+<
+VOLTD
+>
+)
+	43: MoveLoc[1](Arg1: &mut TxContext)
+	44: FreezeRef
+	45: Call tx_context::sender(&TxContext): address
+	46: Call transfer::public_transfer<CoinMetadata
+<
+VOLTD
+>
+>(CoinMetadata
+<
+VOLTD
+>
+, address)
+	47: Ret
+}
+
+Constants [
+	0 => u8: 9
+	1 => vector
+<
+u8
+>
+: "VOLTD" // interpreted as UTF8 string
+	2 => vector
+<
+u8
+>
+: "VoltDoge" // interpreted as UTF8 string
+	3 => vector
+<
+u8
+>
+: "VoltDoge is a meme token built on trust, transparency, and a strong community. With a clear mission, VoltDoge is set to become one of the leading meme tokens in the world. ⚡" // interpreted as UTF8 string
+	4 => vector
+<
+u8
+>
+: "https://photos.pinksale.finance/file/pinksale-logo-upload/1735526209959-efda81f23b9b068fee6c40f0d2315557.jpg" // interpreted as UTF8 string
+	5 => u64: 300000000000000000
+]
+}
