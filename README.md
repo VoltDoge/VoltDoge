@@ -10,7 +10,7 @@ VoltDoge is a community-driven token built on transparency, growth, and innovati
 - Focuses on trust and transparency.
 
 ## Tokenomics
-- **Total Supply:** 300,000,000 tokens.
+- **Total Supply:** 300 million tokens.
 - **Tax:** 0% ensuring seamless and frictionless trading.
 
 ## How to Buy
