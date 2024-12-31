@@ -5,12 +5,12 @@
 VoltDoge is a community-driven token built on transparency, growth, and innovation. Designed on the Sui blockchain for speed and scalability, it’s your gateway to a dynamic and rewarding crypto experience.
 
 ## Features
-- Community-focused growth.
+- Community focused growth.
 - Roadmap targeting major CEX listings.
-- Strategic buybacks and burns to increase value.
+- Focuses on trust and transparency.
 
 ## Tokenomics
-- **Total Supply:** 300 million tokens
+- **Total Supply:** 300,000,000 tokens.
 - **Tax:** 0% ensuring seamless and frictionless trading.
 
 ## How to Buy
