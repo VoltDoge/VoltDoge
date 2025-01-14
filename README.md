@@ -9,9 +9,10 @@ VoltDoge is a community-driven token built on transparency, growth, and innovati
 - Roadmap targeting major CEX listings.
 - Focuses on trust and transparency.
 
-## Tokenomics
+## Voltnomics
 - **Total Supply:** 300 million tokens.
-- **Tax:** 0% ensuring seamless and frictionless trading.
+- **Max Circulating Supply:** 29.9 million tokens.
+- **Total Expected Burns:** 270.1 million tokens.
 
 ## How to Buy
 1. Get Sui in your sui wallet.
