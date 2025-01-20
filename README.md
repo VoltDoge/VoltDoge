@@ -16,7 +16,7 @@ VoltDoge is a community-driven token built on transparency, growth, and innovati
 
 ## How to Buy
 1. Get Sui in your sui wallet.
-2. Connect to Cetus and import VoltDoge using this contract: `0xc0ebc8c54833fabb7f00cdc0359b0c012d28ec27eabd6b6497e47c1d564843d4::voltd::VOLTD`.
+2. Connect to Cetus and import VoltDoge using this contract: `0x9b0095e700ec4a0589afbe46c25e3ac80ddab06c7814fee956644c9b376fdc39::voltd::VOLTD`.
 3. Swap Sui for VoltDoge.
 
 ## Disclaimer
